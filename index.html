@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ресторан</title>
+    <style>
+    
+    body {
+        margin: 0;
+        font-family: cursive;
+    }
+
+    .hero {
+        background: linear-gradient(rgba(0, 0, 0, 0), 90%, rgba(226, 114, 139, 1)), url("Фон.jpg");
+        background-size: cover, cover;
+        background-position: center, center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+
+    .hero img {
+        max-height: 80%;
+        max-width: 90%; 
+        height: auto;
+    }
+
+    .description {
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto;
+        font-size: 1.2em;
+        font-weight: bold;
+        line-height: 1.5;
+    }
+
+    .menu-button {
+        background-color: #ff99cc;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .menu-button:hover {
+        background-color: #ff66b2;
+    }
+
+    .content {
+        background: rgba(226, 114, 139);
+        padding: 20px;
+    }
+        
+    .info {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    .photos, .menu-photos {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px 0;
+    }
+
+    .photo {
+        width: 30%;
+        height: auto;
+        text-align: center;
+    }
+
+    .footer {
+        background: #401F3C;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <img src="Лого.png" alt="Логотип ресторана">
+    </div>
+        
+    <div class="content">
+        <div class="info">
+            <div><b><font size="5">Адрес:</font></b><br>ул. Вольская, 19,<br>Нижний Новгород</div>
+            <div><b><font size="5">Телефон:</font></b><br>+79991367619</div>
+            <div><b><font size="5">Часы работы:</font></b><br>Круглосуточно!</div>
+        </div>
+
+        <div class="description">
+            <p>RussianCombini — компания-первопроходец, стремящаяся сделать аутентичную азиатскую кухню доступной для российских потребителей. Благодаря тщательно подобранному ассортименту высококачественных 
+            продуктов и стремлению к исключительному обслуживанию клиентов, мы стремимся удовлетворить растущий спрос на яркие вкусы Востока.
+            </p>
+        </div>
+
+        <h1 style="text-align: center;">Меню</h1>
+            <div class="menu-photos">
+                <div class="photo">
+                    <img src="Tom_yam_kung_1.jpg" alt="Блюдо 1" style="width: 100%; height: auto;">
+                    <h3>Том Ям Кунг</h3> 
+                    <p>Цена: 700 руб.</p> 
+                </div>
+                <div class="photo">
+                    <img src="mango_pudding_2.jpg" alt="Блюдо 2" style="width: 100%; height: auto;"> 
+                    <h3>Манговый пудинг</h3> 
+                    <p>Цена: 400 руб.</p> 
+                </div>
+                <div class="photo">
+                    <img src="Miso_sup_3.jpg" alt="Блюдо 3" style="width: 100%; height: auto;">
+                    <h3>Мисо суп с тофу</h3> 
+                    <p>Цена: 600 руб.</p> 
+                </div>
+            </div>
+
+        <div class="menu-section">
+            <button class="menu-button">Посмотреть меню</button>
+	</div>
+    </div>
+
+    <div class="footer">
+	<h1>Будем Вас ждать!</h1>
+        <h2>Свяжитесь с нами</h2>
+        <p>+79991367619</p>
+        <p>ул. Вольская, 19, Нижний Новгород</p>
+	<p>Мы открыты круглосуточно!</p>
+    </div>
+</body>
+</html>
